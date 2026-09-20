@@ -15,8 +15,6 @@ jobs:
         run: |
           mkdir -p build_source
           unzip -q ReinosDeConquista_Android_construccion_APK.zip -d build_source
-          cp -r build_source/ReinosDeConquista/* .
-          rm -rf build_source
 
       - name: Configurar Java
         uses: actions/setup-java@v4
